@@ -1,0 +1,95 @@
+
+.app{
+  background-color: #f0f0f0;
+}
+
+.appWrapper {
+  max-width: 375px;
+  margin: 0 auto;
+  background: #fff;
+  min-height: 700px;
+}
+
+.icon {
+  height: 100px;
+  width: 100px;
+}
+
+.hline {
+  margin: 0 auto;
+  width: 300px;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.header {
+  padding: 10px 20px;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.searchbar {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.input {
+  font-family: 'Times New Roman', Times, serif;
+  border: none;
+}
+
+.outerfilter {
+  padding: 25px;
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  border: 2px solid #2379ea;
+  border-radius: 50px 50px 50px 50px;
+  color: #2379ea;
+  max-width: 300px;
+}
+
+.filterlabel {
+  font-size: 15px;
+  margin: 5px;
+}
+
+.searchfilter {
+  box-shadow: 0 5px 20px -10px rgb(0 0 0 / 0.2);
+}
+
+.jobnum {
+  margin: 30px 0 20px 30px;
+}
+
+.jobpostwrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.jobdetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.jobdetailswrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.companytimeposted {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
